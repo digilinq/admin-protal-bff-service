@@ -1,0 +1,28 @@
+{
+  "name": "admin-protal-bff-service",
+  "version": "1.0.0",
+  "description": "This repository is a backend service for admin protal created by node powered by express framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digilinq/admin-protal-bff-service.git"
+  },
+  "author": "Hossein Mohammadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digilinq/admin-protal-bff-service/issues"
+  },
+  "homepage": "https://github.com/digilinq/admin-protal-bff-service#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "uuid": "^11.1.0"
+  }
+}
