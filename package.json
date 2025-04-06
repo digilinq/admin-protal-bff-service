@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server",
-    "dev": "nodemon server"
+    "start": "node express-intro",
+    "dev": "nodemon express-intro"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "date-fns": "^4.1.0",
+    "express": "^4.21.2",
     "uuid": "^11.1.0"
   }
 }
